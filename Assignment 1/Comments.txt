@@ -1,0 +1,11 @@
+Before quantization:
+- The original image has a smooth transition between colors as there are plenty of colors to choose from (64343).
+
+After quantization with range 10:
+- The number of colors are reduced from 64343 to 1062, so we notice some edges in the background that weren't present before.
+
+After quantization with range 20:
+- The number of colors are reduced from 64343 to 231, The edges are more clear in the output image.
+
+After quantization with range 30:
+- The number of colors are reduced from 64343 to 89, false contours appear in the output image that weren't present in the original image.

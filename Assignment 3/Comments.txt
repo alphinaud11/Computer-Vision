@@ -1,0 +1,21 @@
+Image 1 (Moon):
+- Segmenting the original image here produced the best output because the whole moon is segmented as Object 
+(White) and the rest are background (Black). However, applying histogram equalization on the image before 
+segmenting made the segmentation worse, because parts of the moon are shown as background (Black).
+
+Image 2 (Boat):
+- Segmenting the original image shows the boat as background (Black) while everything else as Object (White) 
+which should be the opposite. After segmenting the equalized image, the output is still not satisfying.
+
+Image 3 (Forest):
+- Segmenting the original image shows the sky and its reflection on the water as Object (White) while everything 
+else is Background (Black) which should be the opposite. After segmenting the equalized image, the output got a 
+little better.
+
+Image 4 (Car):
+- Segmenting the original image here produced a good result. However, applying histogram equalization on the 
+image before segmenting made the segmentation much better.
+
+Image 5 (Chain):
+- Segmenting the original image here doesn't really differentiate between the chain and the ground. Applying 
+histogram equalization before segmenting did not make a noticable change.
